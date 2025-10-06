@@ -1,7 +1,9 @@
 Pixelorama pxo files thumbnail generator for KDE's Dolphin. Works for KDE Plasma 6.
 
 ## How to install
+Open a terminal on the repository's directory and run the following commands.
 ```
+mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=/usr/lib64/cmake/Qt6 -DQT_MAJOR_VERSION=6 ..
 make
 sudo make install

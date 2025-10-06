@@ -1,0 +1,9 @@
+{
+  "KPlugin": {
+    "Name": "Pixelorama File Thumbnailer",
+    "Description": "Generates thumbnails for Pixelorama project files (.pxo)",
+    "MimeTypes": [ "image/pxo" ],
+    "ServiceTypes": [ "KIO/Thumbnail" ]
+  },
+  "X-KDE-Thumbnailer-Extensions": [ "pxo" ]
+}
